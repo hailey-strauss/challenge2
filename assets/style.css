@@ -1,17 +1,34 @@
-header {
-  padding: 30px;
-  text-align: center;
-  /* Refer to CSS values by the name of the custom property we assigned it */
-  background: var(--dark-blue);
-  color: var(--white);
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
 }
+
 header {
-  padding: 40px;
-  text-align: center;
-  background: var(--dark-blue);
-  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5%;
+  background-color: #13293d;
+  color: #fff;
 }
 nav {
   display: flex;
-  background-color: var(--tan);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  align-items: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
