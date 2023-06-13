@@ -38,22 +38,28 @@ li a {
 }
 main {
   display: flex;
-  flex: 1 1 0;
+  flex-direction: column;
   max-width: 1200px;
   margin: 2% auto;
 }
-section {
+/* section {
   flex: 1 1 0;
   padding-right: 5%;
-}
+} */
 article {
   border-bottom: 1px solid #d8a47f;
 }
 
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
 
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -64,7 +70,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: blue;
   color: white;
   padding: 12px 20px;
@@ -73,7 +79,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: grey;
 }
 
@@ -81,4 +87,12 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
