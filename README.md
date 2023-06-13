@@ -2,13 +2,7 @@
 
 ## Description
 
-For this project I made a portfolio from scratch. I put in the title, navagation bar, about me, work, and contact me form. I divided all of them up into sections. I also made sure that the navigation bar took you to each of the sections. I then made the words about me, work, and contact me on the left side and the sections on the right hand side. I
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+For this project I made a portfolio from scratch. I put in the title, navagation bar, about me, work, and contact me form. I divided all of them up into sections. I also made sure that the navigation bar took you to each of the sections. I then made the words about me, work, and contact me on the left side and the sections on the right hand side. I have learned how to make things to side by side, divide each section up and making sure each navigation link goes to the correct section.
 
 ## Usage
 
